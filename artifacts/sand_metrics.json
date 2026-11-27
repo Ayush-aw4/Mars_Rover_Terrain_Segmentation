@@ -1,0 +1,13 @@
+{
+  "class": "Sand",
+  "class_id": 2,
+  "dataset_split": "test_min3",
+  "precision": 90.46,
+  "recall": 98.38,
+  "iou": 89.13,
+  "true_positives": 7534904,
+  "false_positives": 794796,
+  "false_negatives": 124416,
+  "images_containing_sand": 110
+}
+

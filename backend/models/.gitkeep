@@ -1,0 +1,5 @@
+# Place your trained PyTorch state_dict checkpoint here:
+# backend/models/best_model.pth
+#
+# Expected source: Google Drive -> MyDrive/Mars_Rover_Project/checkpoints/best_model.pth (~102 MB)
+

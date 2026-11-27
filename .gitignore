@@ -1,0 +1,30 @@
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+backend/.env
+
+# Trained Model Weights (Never commit large .pth checkpoints to GitHub)
+*.pth
+*.pt
+*.ckpt
+backend/models/*.pth
+!backend/models/.gitkeep
+
+# Frontend & Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+npm-debug.log*
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
