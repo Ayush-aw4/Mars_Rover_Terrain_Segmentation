@@ -1,0 +1,9 @@
+# Experimental Vercel Python-function dependency set.
+# WARNING: PyTorch + this model checkpoint may exceed Vercel deployment/runtime limits.
+fastapi==0.115.12
+python-multipart==0.0.20
+pydantic==2.11.3
+torch==2.6.0
+segmentation-models-pytorch==0.5.0
+pillow==11.1.0
+numpy==2.2.4
