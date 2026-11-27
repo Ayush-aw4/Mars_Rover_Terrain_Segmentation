@@ -1,0 +1,6 @@
+{
+  "note": "No fabricated epoch metrics. Training history JSON was not stored in the repository; only verified dataset-level validation and test benchmarks are recorded in evaluation_results.json and sand_metrics.json.",
+  "available": false,
+  "epochs": []
+}
+

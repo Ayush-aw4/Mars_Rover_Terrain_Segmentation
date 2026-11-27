@@ -1,0 +1,23 @@
+{
+  "model": "DeepLabV3+",
+  "encoder": "ResNet-50",
+  "input_resolution": "512x512",
+  "classes": ["Soil", "Bedrock", "Sand", "Big Rock"],
+  "validation": {
+    "mean_iou": 79.75,
+    "pixel_accuracy": 95.32
+  },
+  "test_min3": {
+    "iou": [93.50, 93.62, 89.13, 37.80],
+    "mean_iou": 78.51,
+    "pixel_accuracy": 95.95,
+    "baseline_miou": 12.84
+  },
+  "test_min1": {
+    "iou": [87.86, 79.73, 80.65, 9.74],
+    "mean_iou": 64.50,
+    "pixel_accuracy": 90.67,
+    "baseline_miou": 11.47
+  }
+}
+
