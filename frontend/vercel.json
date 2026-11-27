@@ -1,1 +1,6 @@
-Temporary deployment file placeholder
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm ci"
+}
